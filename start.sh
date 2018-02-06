@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RESET_PIN=7
+RESET_PIN=17
 WAIT_TIME=0.1
 
 if [ $(id -u) -ne "0" ]
