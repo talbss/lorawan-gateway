@@ -21,11 +21,8 @@ echo "1" > /sys/class/gpio/gpio$RESET_PIN/value
 sleep $WAIT_TIME
 echo "0" > /sys/class/gpio/gpio$RESET_PIN/value
 
-echo "Gateway reset successfully"
+sleep 5
 
-while [[ $(ping -c1 google.com 2>&1 | grep " 0% packet loss") == "" ]]; do
-  echo "[LoRaWAN Gateway]: Waiting for internet connection..."
-  sleep 30
-  done
+echo "Gateway reset successfully"
 
 ./lora_pkt_fwd
