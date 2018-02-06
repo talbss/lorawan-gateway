@@ -1,7 +1,7 @@
 LoRaWAN Gateway Installer
 =========================
 
-Simple LoRaWAN gateway packet forwarder installer. Compatible with Raspberry Pi host & SPI concentrator.
+Simple LoRaWAN gateway packet forwarder installer. Compatible with Raspberry Pi host & SPI concentrator + RAK831.
 
 ## Installation
 
