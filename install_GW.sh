@@ -74,7 +74,7 @@ systemctl enable lorawan-gateway.service
 
 
 echo "Install mosquitto"
-apt-get install mosquitto
+apt-get install mosquitto --yes
 
 echo "lora-gateway-bridge"
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1CE2AFD36DBCCA00
