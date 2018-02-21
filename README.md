@@ -11,5 +11,13 @@ Run the following commands:
 ```bash
 git clone https://github.com/talbss/lorawan-gateway.git
 cd lorawan-gateway
-sudo ./install_GW.sh
+
+## to install packet forwarder only
+sudo ./install_Packet_Forwarder_Only.sh
+
+or 
+## to install packet forwarder + mosquitto + lora-gateway-bridge
+
+sudo ./install_Complete_GW.sh
+
 ```
